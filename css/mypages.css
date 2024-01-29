@@ -1,0 +1,68 @@
+/* .post-content, .post-custom */
+.post-content,
+.post-custom {
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* @media (max-width: 767px) */
+@media (max-width: 767px) {
+  .post-content,
+  .post-custom {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* @media (max-width: 424px) */
+@media (max-width: 424px) {
+  .post-content,
+  .post-custom {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  /* .anchorjs-link-left */
+  .anchorjs-link-left {
+    opacity: 0 !important;
+  }
+}
+
+/* .page-content, .post-content */
+/* .page-content, .post-content */
+.page-content,
+.post-content {
+  font-weight: bold; /* Apply bold font to all strong elements */
+}
+
+.page-content > *:first-child,
+.post-content > *:first-child {
+  margin-top: 0; /* Remove top margin from the first child */
+}
+
+.page-content img,
+.post-content img {
+  object-fit: cover; /* Apply cover to object-fit property for all images */
+  max-width: 100%; /* Set maximum width to 100% for all images */
+}
+
+
+/* @media (max-width: 767px) */
+@media (max-width: 767px) {
+  .page-content,
+  .post-content {
+    overflow-x: hidden;
+  }
+}
+
+/* .post-metas */
+.post-metas {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+
+
+  
+
